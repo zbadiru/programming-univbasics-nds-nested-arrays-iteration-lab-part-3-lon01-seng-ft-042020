@@ -10,9 +10,9 @@ join_nested_strings = " "
         join_nested_strings += src[row_index][element_index] + ' '
   end
   element_index += 1
+  binding.pry
 end
 row_index += 1
 end
 join_nested_strings
-binding.pry
 end
