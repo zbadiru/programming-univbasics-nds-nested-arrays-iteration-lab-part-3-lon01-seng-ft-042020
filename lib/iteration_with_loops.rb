@@ -12,7 +12,6 @@ join_nested_strings = " "
   element_index += 1
 end
 row_index += 1
-  binding.pry
 end
 join_nested_strings
 end
